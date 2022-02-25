@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFBED8;
+  height: 100vh;
+}
+
+.password-generator {
+  padding: 40px;
+  background-color: #FF7BA9;
+  color: white;
+  font-size: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.password-generator div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.password-generator div > input{
+  outline: none;
+  border: none;
+  padding:0px 5px;
+}
+
+.password {
+  min-height: 36px;
+  min-width: 100%;
+  background-color: #fff;
+  color: #FF7BA9;
+}
+
+.password p {
+  padding: 6px 10px;
+}
+
+.password-generator button {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  color: #FF7BA9;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
